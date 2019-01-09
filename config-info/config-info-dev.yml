@@ -1,1 +1,4 @@
-textspring: gggggggggg
+com:
+  springcloud:
+    book:
+      config: I am the git  configuration file dev enviroment
