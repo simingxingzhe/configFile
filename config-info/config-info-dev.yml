@@ -2,3 +2,7 @@ com:
   springcloud:
     book:
       config: I am the git  configuration file dev enviroment
+      eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://peer1:8001/eureka/,http://peer2:8002/eureka/
